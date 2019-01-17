@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Asap|Orbitron');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url("clock-pattern.png")
+}
+
+.main {
+    background: #CCC;
+    width: 400px;
+    height: 175px;
+    margin: 100px auto;
+    position: relative;
+    padding: 30px;
+    border-radius: 4px;
+    opacity: 0.6;
+}
+
+.badge {
+    width: 96px;
+    background: #E66357;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 40%;
+    border-radius: 4px;
+}
+
+.clock {
+    background-color: #EBEBEB;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 35px; 
+    font-family: Orbitron;
+    border-radius: 4px;
+}
