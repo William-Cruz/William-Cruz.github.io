@@ -19,7 +19,7 @@
 
 		<!-- Intro -->
 		<div id="intro">
-			<span><p id="demoA"></p></span>
+			<span id="demoA"></span>
 			<h1>My Portfolio</h1>
 			<p>A showcase of my projects and abilities</p>
 			<ul class="actions">
@@ -39,7 +39,7 @@
 				<li><a href="rock-paper-scissors/index.html" target="_blank">Rock Paper Scissors</a></li>
 				<li><a href="pig_game/index.html" target="_blank">Pig Game</a></li>
 				<li><a href="Responsive_Css_Grid/index.html" target="_blank">GridBiz</a></li>
-				<li><a href="Blur_Effect/index.html" target="_blank">Blur Reference</a></li>
+				<li><a href="Blur_Effect/index.html" target="_blank">Blur Effect</a></li>
 				<li><a href="weight_converter/index.html" target="_blank">Weight Converter</a></li>
 				<li><a href="digital-clock/index.html" target="_blank">Digital Clock</a></li>
 			</ul>
@@ -183,7 +183,7 @@
 			<div id="copyright">
 				<ul>
 					<li>&copy; <strong style="color:grey;" id="demoC"></strong></li>
-					<li>Design:<a href="https://www.xchiefx.com/">William Cruz</a></li>
+					<li>Design:<a href="https://www.xchiefx.com/"> William Cruz</a></li>
 				</ul>
 			</div>
 		</div>
@@ -196,13 +196,13 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-
-</body>
-<script>var a = (new Date()).toString().split(' ').splice(1, 3).join(' ');
-	document.getElementById("demoA").innerHTML= a;
-	var b = (new Date()).toString().split(' ').splice(1, 3).join(' ');
-		document.getElementById("demoB").innerHTML = b;
-	var c = (new Date()).toString().split(' ').splice(1, 3).join(' ');
-		document.getElementById("demoC").innerHTML = c;
-	</script>
+		<script>
+			var a = (new Date()).toString().split(' ').splice(1, 3).join(' ');
+			document.getElementById("demoA").innerHTML= a;
+			var b = (new Date()).toString().split(' ').splice(1, 3).join(' ');
+				document.getElementById("demoB").innerHTML = b;
+			var c = (new Date()).toString().split(' ').splice(1, 3).join(' ');
+				document.getElementById("demoC").innerHTML = c;
+			</script>
+	</body>
 </html>
